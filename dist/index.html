@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
 
   <script src="./js/countdown.js" type="text/javascript"></script>
+  <script src="./js/faqToggle.js" type="text/javascript"></script>
 
   <script src="https://kit.fontawesome.com/8f31dcb303.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -19,9 +20,9 @@
   <div class="top">
     <div class="top__container">
       <div class="top__content">
-        <img src="./img//tmi-logo.jpg" width="300" class="logo" />
-        <h1>The Mindset Intensive</h1>
-        <h2>Free Workshop</h2>
+        <h1 class="logo">Mindset Intensive</h1>
+        <h2>The Mindset Intensive</h2>
+        <h3>Free Workshop</h3>
 
         <div class="responsive">
           <iframe class="responsive__iframe" src="https://player.vimeo.com/video/398913304" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -142,117 +143,267 @@
     </div>
   </div>
 
-  <!-- overlay text -->
+  <div class="featured">
+    <img src="./img/featured.jpg" />
+  </div>
 
-  <section class="section-b">
-    <div class="overlay">
-      <div class="section-b-inner">
-        <h3>Headline</h3>
-        <h2>This is a sub-headline</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui officia eveniet nobis possimus quis quam praesentium vel libero sapiente commodi.</p>
+  <div class="growth">
+    <div class="growth__content">
+      <div class="bar"></div>
+      <h1>An Easier Approach to Growth</h1>
+      <p>In this captivating, immersive workshop, you'll discover Fabienne's 3-part process that will quickly assist you to find that next level of impact  income in your business with confidence and certainty.</p>
+          
+      <p>The last 12 month period has arguably been one of the hardest in a generation. If you have been tested, pushed and stretched in these uncertain times, this online event will help you see the path ahead with heightened clarity and focus.</p>
+          
+      </p>Sometimes, to take that next few steps forward we must pause and find a different approach. <strong>The Mindset Intensive</strong> is the space where you ill discover that different easier approach are needing right now.</p>
+    </div>
+  </div>
+
+  <div class="featured">
+    <h1>Others Have Thrived &amp; Pivoted with Fabienne's Mindset Teachings</h1>
+    <img src="./img/accomplish.jpg" />
+  </div>
+
+  <div class="sign-up">
+    <div class="sign-up__header">
+      <div class="bar"></div>
+      <p>Knowing if this is for you or not</p>
+      <h1>Should you sign up?</h1>
+    </div>
+    
+    <div class="sign-up__container">
+      <div class="sign-up__content">
+        <p>Being a self-employed is not easy - in fact, it's so hard that the majority of businesses started by enthusiastic entrepreneurs don't make it past their 2nd year and very few make it to 5 and over! Sadly, many small business owners brave enough to actually give it a shot rarely enjoy the freedom they thought they'd gain by becoming their own boss, or experience the financial benefits that are meant to go hand-in-hand with having a business.</p>
+            
+        <p>Not to say that this is you, but chances are at least once in a while, you feel the pressure that can come with underwhelming results and disappointing financial rewards. <strong>The Mindset Intensive</strong> is where you learn the <strong>3 critical steps</strong> to breaking through a whole new level - with confidence and clarity. Countless people before you have pointed to the Mindset Intensive as the days that shifted everyhting for them.</p> 
+            
+        <p>Now is your time to stop sabotaging, procrastinating or overthinking and instead, break through to becoming the powerful, intentional leader you always wanted to be.</p>
+      </div>
+
+      <div class="sign-up__form">
+        <div class="form__contain register">
+          <div class="register__form">
+            <h2 style="margin-bottom: 0.25em;"><span class="pink-em">Free</span> 2 hour online event</h2>
+            <h2>Register below</h2>
+
+            <hr />
+
+            <form class="form"> 
+              <input name="first" placeholder="First Name" class="form__input" type="text" />
+              <input name="email" placeholder="Email" class="form__input" type="email" />
+
+              <div class="form__consent consent">
+                <input type="checkbox" name="consent__box" class="form__box" />
+                <label for="consent__box">
+                    I give consent to use this information to send additional communication as described in your <a href="http://boldheart.com/privacy-policy" target="_blank">Privacy Policy</a>.
+                </label>
+              </div>
+              <input type="submit" class="form__submit" value="Register for free now" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- features -->
+  <div class="testimonials">
+    <h1>TESTIMONIALS HERE</h1>
+  </div>
 
-  <section class="section-c">
-      <div class="container">
-        <div>
-          <i class="fas fa-arrow-circle-up"></i>
-          <h1>This is a feature</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nemo voluptatum assumenda eveniet recusandae explicabo eius libero accusamus provident expedita.</p>
-        </div>
-        <div>
-          <i class="fas fa-arrow-circle-up"></i>
-          <h1>This is a feature</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nemo voluptatum assumenda eveniet recusandae explicabo eius libero accusamus provident expedita.</p>
-        </div>
-        <div>
-          <i class="fas fa-arrow-circle-up"></i>
-          <h1>This is a feature</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nemo voluptatum assumenda eveniet recusandae explicabo eius libero accusamus provident expedita.</p>
-        </div>
+  <div class="about">
+    <div class="about__header">
+      <div class="bar"></div>
+      <p>Meet Your Host, <span class="pink-em">Fabienne Fredrickson</span></p>
+      <h1>Hey, this is me</h1>
+
+      <div class="about__headshot">
+        <img src="./img/ff-headshot.png" width="300" />
       </div>
-    </section>
-
-  <!-- gallery -->
-
-  <section class="section-d">
-    <div class="gallery">
-      <a href="#" >
-        <img src="img/road-img-1.jpg" />
-      </a>
-      <a href="#" >
-        <img src="img/road-img-2.jpg" />
-      </a>
-      <a href="#" >
-        <img src="img/road-img-3.jpg" />
-      </a>
-      <a href="#" >
-        <img src="img/road-img-4.jpg" />
-      </a>
-      <a href="#" >
-        <img src="img/road-img-5.jpg" />
-      </a>
     </div>
-  </section>
 
-  <!-- footer -->
-  <footer class="section-footer">
-    <div class="container">
-      <div>
-        <h2>Lorem, ipsum dolor.</h2>
-        <a href="#">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-instagram fa-2x"></i>
-        </a>
+    <div class="about__container">
+      <div class="about__content">
+        <p>Hello, my sweet friend, my name is Fabienne Fredrickson, and chances are we haven't met yet but my hope is that we're about to change this.</p>
+          
+        <p>Over the past twenty-something years, I have gone on my own journey in business that probably isn't too dissimilar to yours. Lots of highs, lots of lows, plenty of roadblocks that needed overcoming and all while juggling family, home life and my own dreams and aspirations!</p>
+          
+        <p>Business, as you know, isn't easy - it finds a way to throw challenges constantly, and every time we think we've figured it out, the game likes to remind us that we have something more difficult to learn. I've overcome all of these challenges, and been a 7-figure business owner for more than 13 years now, by applying powerful mindset principles that work every time.</p>
+          
+        <p>Hopefully, this where I get to come in for you.</p>
+          
+        <p>What I know for sure, is that to go up a level or two, we need to spend time with those who've completed them before us. It took me some time to figure out the best way to build my business, but when I did, it was like all the puzzle pieces just clicked in together. Fast forward some, and what we teach and how we teach it has seen my methods featured by the  of Forbes, New York Times, Inc. Magazine and so on. My mindset teachings, the ones I'll be sharing with you during the Mindset Intensive are the ones that thousands of women are using to make millions a year collectively.</p>
+          
+        <p>The point of my story though is not to say 'look at me', the point is to say that I can help you do amazing things, and we can do it together for free through The Mindset Intensive. If you'll join me, I will teach you things that truly have the power to change your life and improve your business. I know this because I have been doing these events for over 10 years now and the impact for thousands of women in business around the world has been something I'm so proud of.</p>
+          
+        <p>Life is too short to spend too long figuring out the work/business stuff alone, that lets you lead the life you love with those who matter most. I hope you'll come along...</p>
+
+        <p class="signature">Fabienne Fredrickson x</p>
       </div>
-      <div>
-        <h3>Company Info</h3>
-        <ul>
-          <li><a href="#">All Products</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-        </ul>
+    </div>
+  </div>
+
+  <div class="cta">
+    <div class="cta__container">
+      <div class="cta__header">
+        <h1>The Mindset Intensive</h1>
+        <h2>Free Workshop</h2>
       </div>
-      <div>
-        <h3>Blog Posts</h3>
-        <ul>
-          <li><a href="#">Lorem, ipsum dolor.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit.</a></li>
-          <li><a href="#">Lorem, ipsum dolor.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-        </ul>
+      <div class="cta__content">
+        <p>It's time to get out of your own way & finally hit your next big level in business. This live and immersive training will help you do exactly that AND show you how to enjoy the journey while fully reaping the rewards that should come from being a successful business owner.</p>
       </div>
-      <div>
-        <h3>Subscribe</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis.</p>
-        <form name="email-form" method="POST" action="">
-          <div class="email-form">
-            <span class="form-control-wrap">
-              <input 
-                type="email" 
-                name="email" 
-                id="email" 
-                size="40" 
-                class="form-control" 
-                placeholder="Email"
-              >
-            </span>
-            <button type="submit" class="form-control submit">
-              <i class="fas fa-chevron-right"></i>
+
+      <div class="cta__form">
+        <div class="form__contain register">
+          <div class="cta__details">
+            <div class="register__countdown">
+              <p>Event starting in...</p>
+  
+              <div class="countdown__contain">
+                <div class="countdown__item">
+                  <span id="days2"></span>
+                  <p>days</p>
+                </div>
+  
+                <span class="countdown__separator">:</span>
+  
+                <div class="countdown__item">
+                  <span id="hours2"></span>
+                  <p>hours</p>
+                </div>
+  
+                <span class="countdown__separator">:</span>
+  
+                <div class="countdown__item">
+                  <span id="minutes2"></span>
+                  <p>mins</p>
+                </div>
+  
+                <span class="countdown__separator">:</span>
+  
+                <div class="countdown__item">
+                  <span id="seconds2"></span>
+                  <p>secs</p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="register__times times">
+              <div class="times__item">
+                <h3>Eastern</h3>
+                <p class="locale">New York</p>
+                <p><strong>11:00am</strong></p>
+              </div>
+  
+              <div class="times__item">
+                <h3>Central</h3>
+                <p class="locale">Chicago</p>
+                <p><strong>10:00am</strong></p>
+              </div>
+  
+              <div class="times__item">
+                <h3>Pacific</h3>
+                <p class="locale">Los Angeles</p>
+                <p><strong>8:00am</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="register__form">
+            <p>Register below</p>
+  
+            <form class="form"> 
+              <input name="first" placeholder="First Name" class="form__input" type="text" />
+              <input name="email" placeholder="Email" class="form__input" type="email" />
+  
+              <div class="form__consent consent">
+                <input type="checkbox" name="consent__box" class="form__box" />
+                <label for="consent__box">
+                    I give consent to use this information to send additional communication as described in your <a href="http://boldheart.com/privacy-policy" target="_blank">Privacy Policy</a>.
+                </label>
+              </div>
+              <input type="submit" class="form__submit" value="Register for free now" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq__contain">
+      <div class="faq__header">
+        <div class="bar"></div>
+        <h1>FAQs</h1>
+      </div>
+      <div class="faq__content">
+        <div class="faq__item">
+          <div class="faq__toggle-contain">
+            <button class="faq__toggle" id="faq-1" onClick="toggleAns(this.id)">
+              <span id="faq-1-toggle">+</span>
+              <p class="faq__question">Why is this online workshop free? What's the catch?</p>
             </button>
           </div>
-        </form>
+          <p class="faq__answer" id="faq-1-ans">There is no catch, this online workshop is absolutely free. We're confident you will discover a new, more powerful way to approach your business to start achieving more of the results that you're looking for. This free session is a taste of a bigger program we offer and if you like what you hear over the course of the free training, we will invite you to join us for the full 3-day mindset workshop if it speaks to you.</p>
+        </div>
+        <div class="faq__item">
+          <div class="faq__toggle-contain">
+            <button class="faq__toggle" id="faq-2" onClick="toggleAns(this.id)">
+              <span id="faq-2-toggle">+</span>
+              <p class="faq__question">Who is this online event for?</p>
+            </button>
+          </div>
+          <p class="faq__answer" id="faq-2-ans">There is no catch, this online workshop is absolutely free. We're confident you will discover a new, more powerful way to approach your business to start achieving more of the results that you're looking for. This free session is a taste of a bigger program we offer and if you like what you hear over the course of the free training, we will invite you to join us for the full 3-day mindset workshop if it speaks to you.</p>
+        </div>
+        <div class="faq__item">
+          <div class="faq__toggle-contain">
+            <button class="faq__toggle" id="faq-3" onClick="toggleAns(this.id)">
+              <span id="faq-3-toggle">+</span>
+              <p class="faq__question">How should I show up?</p>
+            </button>
+          </div>
+          <p class="faq__answer" id="faq-3-ans">There is no catch, this online workshop is absolutely free. We're confident you will discover a new, more powerful way to approach your business to start achieving more of the results that you're looking for. This free session is a taste of a bigger program we offer and if you like what you hear over the course of the free training, we will invite you to join us for the full 3-day mindset workshop if it speaks to you.</p>
+        </div>
+        <div class="faq__item">
+          <div class="faq__toggle-contain">
+            <button class="faq__toggle" id="faq-4" onClick="toggleAns(this.id)">
+              <span id="faq-4-toggle">+</span>
+              <p class="faq__question">What is the time and date of the online event?</p>
+            </button>
+          </div>
+          <p class="faq__answer" id="faq-4-ans">There is no catch, this online workshop is absolutely free. We're confident you will discover a new, more powerful way to approach your business to start achieving more of the results that you're looking for. This free session is a taste of a bigger program we offer and if you like what you hear over the course of the free training, we will invite you to join us for the full 3-day mindset workshop if it speaks to you.</p>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="contact">
+    <div class="contact__container">
+      <div class="contact__header">
+        <div class="bar"></div>
+        <h1>Contact Us</h1>
+      </div>
+
+      <div class="contact__content">
+        <p><strong>Boldheart</strong></p>
+        <p>(203) 717-4404 | International: +1 203.716.6304</p>
+        <a href="mailto:info@boldheart.com" target="_blank">info@boldheart.com</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="disclaimer">
+    <p>Disclaimer: Results may vary. As with any educational product, the results you achieve using Boldheart's System are ultimately your responsibility. At this online free event there will be opportunities to continue your education and rapidly grow your business through paid programs, however these programs are completely optional and you will get amazing content from this free workshop either way. We look forward to serving you in growing and building your business!</p>
+  </div>
+
+  <div class="bottom-logo">
+    <p>The</p>
+    <h1>Mindset Intensive</h1>
+    <p>Get out of your own way</p>
+    <p>and reach your next big level</p>
+  </div>
+
+  <footer>
+    <p>&copy; Boldheart. All rights reserved</p>
+    <a href="https://boldheart.com/privacy-policy" target="_blank">Privacy Policy</a>
   </footer>
 
 </body>
